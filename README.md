@@ -1,9 +1,9 @@
-# Terraform Provider Hashicups
+# Terraform Provider Stratos
 
 Run the following command to build the provider
 
 ```shell
-go build -o terraform-provider-hashicups
+go build -o terraform-provider-stratos
 ```
 
 ## Test sample configuration
@@ -19,3 +19,15 @@ Then, run the following command to initialize the workspace and apply the sample
 ```shell
 terraform init && terraform apply
 ```
+
+## Resources
+
+1. server_role
+2. server_support_group
+3. stratos_config
+
+ ## Data Sources
+
+ 1. server_role
+ 2. server_support_group
+ 

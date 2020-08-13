@@ -1,13 +1,13 @@
 terraform {
   required_providers {
-    hashicups = {
+    stratos = {
       versions = ["0.2"]
-      source = "hashicorp.com/edu/hashicups"
+      source = "diehlabs.com/dev/stratos"
     }
   }
 }
 
-provider "hashicups" {}
+provider "stratos" {}
 
 module "psl" {
   source = "./coffee"

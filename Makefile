@@ -1,9 +1,9 @@
 TEST?=$$(go list ./... | grep -v 'vendor')
-HOSTNAME=hashicorp.com
-NAMESPACE=edu
-NAME=hashicups
+HOSTNAME=diehlabs.com
+NAMESPACE=dev
+NAME=stratos
 BINARY=terraform-provider-${NAME}
-VERSION=0.2
+VERSION=0.1
 OS_ARCH=darwin_amd64
 
 default: install
